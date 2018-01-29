@@ -1,0 +1,25 @@
+18:09:07 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputHost ****
+make -r all 
+Building file: ../example/src/AudioOutputHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_AudioOutputHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"example/src/AudioOutputHost.d" -MT"example/src/AudioOutputHost.o" -MT"example/src/AudioOutputHost.d" -o "example/src/AudioOutputHost.o" "../example/src/AudioOutputHost.c"
+../example/src/AudioOutputHost.c: In function 'main':
+../example/src/AudioOutputHost.c:160:2: warning: null argument where non-null required (argument 1) [-Wnonnull]
+  i = MIDI_Host_Flush(NULL);
+  ^
+../example/src/AudioOutputHost.c:156:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i=0;
+      ^
+Finished building: ../example/src/AudioOutputHost.c
+ 
+Building target: LPCUSBlib_AudioOutputHost.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/Debug" -L"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/Debug" -Xlinker -Map="LPCUSBlib_AudioOutputHost.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "LPCUSBlib_AudioOutputHost_Debug.ld" -o "LPCUSBlib_AudioOutputHost.axf"  ./lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.o  ./lpcusblib/Drivers/USB/Core/HCD/HCD.o  ./lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.o  ./lpcusblib/Drivers/USB/Core/ConfigDescriptor.o ./lpcusblib/Drivers/USB/Core/Host.o ./lpcusblib/Drivers/USB/Core/HostStandardReq.o ./lpcusblib/Drivers/USB/Core/Pipe.o ./lpcusblib/Drivers/USB/Core/PipeStream.o ./lpcusblib/Drivers/USB/Core/USBController.o ./lpcusblib/Drivers/USB/Core/USBMemory.o ./lpcusblib/Drivers/USB/Core/USBTask.o  ./lpcusblib/Drivers/USB/Class/Host/AudioClassHost.o  ./lpcusblib/Drivers/USB/Class/Common/HIDParser.o  ./example/src/AudioOutputHost.o ./example/src/cr_startup_lpc43xx.o ./example/src/sysinit.o   -llpc_board_nxp_lpcxpresso_4337 -llpc_chip_43xx
+./example/src/AudioOutputHost.o: In function `main':
+/home/michele/Scrivania/SE_project/Project/LPCUSBlib_AudioOutputHost/Debug/../example/src/AudioOutputHost.c:160: undefined reference to `MIDI_Host_Flush'
+collect2: error: ld returned 1 exit status
+makefile:36: set di istruzioni per l'obiettivo "LPCUSBlib_AudioOutputHost.axf" non riuscito
+make: *** [LPCUSBlib_AudioOutputHost.axf] Errore 1
+
+18:09:08 Build Finished (took 272ms)
+

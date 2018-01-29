@@ -1,0 +1,96 @@
+18:06:20 **** Build of configuration Debug for project LPCUSBlib_SerialHost ****
+make -r all 
+Building file: ../lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.d" -MT"lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.o" -MT"lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.d" -o "lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.o" "../lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/HCD/HCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/HCD/HCD.d" -MT"lpcusblib/Drivers/USB/Core/HCD/HCD.o" -MT"lpcusblib/Drivers/USB/Core/HCD/HCD.d" -o "lpcusblib/Drivers/USB/Core/HCD/HCD.o" "../lpcusblib/Drivers/USB/Core/HCD/HCD.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/HCD/HCD.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.d" -MT"lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.o" -MT"lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.d" -o "lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.o" "../lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/ConfigDescriptor.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/ConfigDescriptor.d" -MT"lpcusblib/Drivers/USB/Core/ConfigDescriptor.o" -MT"lpcusblib/Drivers/USB/Core/ConfigDescriptor.d" -o "lpcusblib/Drivers/USB/Core/ConfigDescriptor.o" "../lpcusblib/Drivers/USB/Core/ConfigDescriptor.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/ConfigDescriptor.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/Host.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/Host.d" -MT"lpcusblib/Drivers/USB/Core/Host.o" -MT"lpcusblib/Drivers/USB/Core/Host.d" -o "lpcusblib/Drivers/USB/Core/Host.o" "../lpcusblib/Drivers/USB/Core/Host.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/Host.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/HostStandardReq.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/HostStandardReq.d" -MT"lpcusblib/Drivers/USB/Core/HostStandardReq.o" -MT"lpcusblib/Drivers/USB/Core/HostStandardReq.d" -o "lpcusblib/Drivers/USB/Core/HostStandardReq.o" "../lpcusblib/Drivers/USB/Core/HostStandardReq.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/HostStandardReq.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/Pipe.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/Pipe.d" -MT"lpcusblib/Drivers/USB/Core/Pipe.o" -MT"lpcusblib/Drivers/USB/Core/Pipe.d" -o "lpcusblib/Drivers/USB/Core/Pipe.o" "../lpcusblib/Drivers/USB/Core/Pipe.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/Pipe.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/PipeStream.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/PipeStream.d" -MT"lpcusblib/Drivers/USB/Core/PipeStream.o" -MT"lpcusblib/Drivers/USB/Core/PipeStream.d" -o "lpcusblib/Drivers/USB/Core/PipeStream.o" "../lpcusblib/Drivers/USB/Core/PipeStream.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/PipeStream.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/USBController.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/USBController.d" -MT"lpcusblib/Drivers/USB/Core/USBController.o" -MT"lpcusblib/Drivers/USB/Core/USBController.d" -o "lpcusblib/Drivers/USB/Core/USBController.o" "../lpcusblib/Drivers/USB/Core/USBController.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/USBController.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/USBMemory.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/USBMemory.d" -MT"lpcusblib/Drivers/USB/Core/USBMemory.o" -MT"lpcusblib/Drivers/USB/Core/USBMemory.d" -o "lpcusblib/Drivers/USB/Core/USBMemory.o" "../lpcusblib/Drivers/USB/Core/USBMemory.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/USBMemory.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Core/USBTask.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Core/USBTask.d" -MT"lpcusblib/Drivers/USB/Core/USBTask.o" -MT"lpcusblib/Drivers/USB/Core/USBTask.d" -o "lpcusblib/Drivers/USB/Core/USBTask.o" "../lpcusblib/Drivers/USB/Core/USBTask.c"
+Finished building: ../lpcusblib/Drivers/USB/Core/USBTask.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Class/Host/CDCClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Class/Host/CDCClassHost.d" -MT"lpcusblib/Drivers/USB/Class/Host/CDCClassHost.o" -MT"lpcusblib/Drivers/USB/Class/Host/CDCClassHost.d" -o "lpcusblib/Drivers/USB/Class/Host/CDCClassHost.o" "../lpcusblib/Drivers/USB/Class/Host/CDCClassHost.c"
+Finished building: ../lpcusblib/Drivers/USB/Class/Host/CDCClassHost.c
+ 
+Building file: ../lpcusblib/Drivers/USB/Class/Common/HIDParser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"lpcusblib/Drivers/USB/Class/Common/HIDParser.d" -MT"lpcusblib/Drivers/USB/Class/Common/HIDParser.o" -MT"lpcusblib/Drivers/USB/Class/Common/HIDParser.d" -o "lpcusblib/Drivers/USB/Class/Common/HIDParser.o" "../lpcusblib/Drivers/USB/Class/Common/HIDParser.c"
+Finished building: ../lpcusblib/Drivers/USB/Class/Common/HIDParser.c
+ 
+Building file: ../example/src/SerialHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"example/src/SerialHost.d" -MT"example/src/SerialHost.o" -MT"example/src/SerialHost.d" -o "example/src/SerialHost.o" "../example/src/SerialHost.c"
+Finished building: ../example/src/SerialHost.c
+ 
+Building file: ../example/src/cr_startup_lpc43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"example/src/cr_startup_lpc43xx.d" -MT"example/src/cr_startup_lpc43xx.o" -MT"example/src/cr_startup_lpc43xx.d" -o "example/src/cr_startup_lpc43xx.o" "../example/src/cr_startup_lpc43xx.c"
+Finished building: ../example/src/cr_startup_lpc43xx.c
+ 
+Building file: ../example/src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -D__LPC43XX__ -DUSB_HOST_ONLY -D__REDLIB__ -DCORE_M4 -I"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/inc" -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -I"/home/michele/Scrivania/SE_project/Project/LPCUSBlib_SerialHost/lpcusblib/Drivers/USB" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"example/src/sysinit.d" -MT"example/src/sysinit.o" -MT"example/src/sysinit.d" -o "example/src/sysinit.o" "../example/src/sysinit.c"
+Finished building: ../example/src/sysinit.c
+ 
+Building target: LPCUSBlib_SerialHost.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/michele/Scrivania/SE_project/Project/lpc_chip_43xx/Debug" -L"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/Debug" -Xlinker -Map="LPCUSBlib_SerialHost.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "LPCUSBlib_SerialHost_Debug.ld" -o "LPCUSBlib_SerialHost.axf"  ./lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.o  ./lpcusblib/Drivers/USB/Core/HCD/HCD.o  ./lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.o  ./lpcusblib/Drivers/USB/Core/ConfigDescriptor.o ./lpcusblib/Drivers/USB/Core/Host.o ./lpcusblib/Drivers/USB/Core/HostStandardReq.o ./lpcusblib/Drivers/USB/Core/Pipe.o ./lpcusblib/Drivers/USB/Core/PipeStream.o ./lpcusblib/Drivers/USB/Core/USBController.o ./lpcusblib/Drivers/USB/Core/USBMemory.o ./lpcusblib/Drivers/USB/Core/USBTask.o  ./lpcusblib/Drivers/USB/Class/Host/CDCClassHost.o  ./lpcusblib/Drivers/USB/Class/Common/HIDParser.o  ./example/src/SerialHost.o ./example/src/cr_startup_lpc43xx.o ./example/src/sysinit.o   -llpc_board_nxp_lpcxpresso_4337 -llpc_chip_43xx
+Finished building target: LPCUSBlib_SerialHost.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCUSBlib_SerialHost.axf"; # arm-none-eabi-objcopy -v -O binary "LPCUSBlib_SerialHost.axf" "LPCUSBlib_SerialHost.bin" ; # checksum -p LPC4337 -d "LPCUSBlib_SerialHost.bin";
+   text	   data	    bss	    dec	    hex	filename
+  38224	   1076	  13088	  52388	   cca4	LPCUSBlib_SerialHost.axf
+ 
+
+18:06:22 Build Finished (took 1s.784ms)
+

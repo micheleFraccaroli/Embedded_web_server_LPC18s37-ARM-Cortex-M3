@@ -1,0 +1,6 @@
+13:35:12 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make -r all 
+make: Nessuna operazione da eseguire per "all".
+
+13:35:12 Build Finished (took 76ms)
+

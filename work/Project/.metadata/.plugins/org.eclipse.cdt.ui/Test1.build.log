@@ -1,0 +1,15 @@
+12:09:40 **** Build of configuration Debug for project Test1 ****
+make -r all 
+Building file: ../src/Test1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC18XX__ -D__REDLIB__ -I"/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Test1.d" -MT"src/Test1.o" -MT"src/Test1.d" -o "src/Test1.o" "../src/Test1.c"
+In file included from ../src/Test1.c:32:0:
+/home/michele/Scrivania/SE_project/Project/lpc_board_nxp_lpcxpresso_4337/inc/board.h:35:18: fatal error: chip.h: No such file or directory
+src/subdir.mk:27: set di istruzioni per l'obiettivo "src/Test1.o" non riuscito
+ #include "chip.h"
+                  ^
+compilation terminated.
+make: *** [src/Test1.o] Errore 1
+
+12:09:40 Build Finished (took 76ms)
+
